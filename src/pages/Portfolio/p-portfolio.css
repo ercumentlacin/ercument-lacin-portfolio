@@ -1,0 +1,46 @@
+i {
+  font-size: 2rem;
+}
+
+.custom-btn {
+  cursor:pointer;
+  margin-bottom: 0.5rem;
+  background-color: #a1eacd;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 1.5rem 1rem;
+  border: none;
+  margin-right: 0.3rem;
+  -webkit-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+  color: #252525;
+  text-decoration: none;
+  letter-spacing: 0.01rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: capitalize;
+  font-family: "Crimson Text", serif;
+}
+
+.custom-btn:hover {
+  background-color: #f48480;
+  padding: 0.5rem 1.8rem 1rem;
+  color: #fff;
+}
+
+.custom-btn:focus {
+  outline: thin dotted;
+}
+
+.custom-bt:active,
+.custom-bt:hover {
+  outline: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-image-container {
+    order: -1;
+    transition: all 0.3s ease;
+  }
+}

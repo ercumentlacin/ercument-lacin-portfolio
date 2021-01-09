@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,600;0,700;1,600;1,700&display=swap");
+
+.nav-link,
+.navbar-brand {
+  position: relative;
+  font-weight: 600;
+  text-transform: lowercase;
+  letter-spacing: 0.02rem;
+  display: inline-block;
+  padding: 1rem 1.5rem 0.8rem;
+  font-family: "Crimson Text", serif;
+  font-style: italic;
+  font-size: 1.3rem;
+}
+.navbar-brand {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+}
+.navbar-brand::after,
+.navbar-brand::before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  transition: all 1s;
+}
+
+.navbar-brand::after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+.navbar-brand::before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+.navbar-brand:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.navbar-brand:hover::before,
+.navbar-brand:hover::after {
+  width: 110%;
+  height: 110%;
+}
+
+.nav-link::after {
+  content: "";
+  width: 72%;
+  height: 4px;
+  background-color: #f48480;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  position: absolute;
+  bottom: 0;
+  left: 14%;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+}

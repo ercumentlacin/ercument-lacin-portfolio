@@ -1,0 +1,13 @@
+.social-media a {
+  color: #394ff4;
+  -webkit-transition: color 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin-right: 0.3rem;
+}
+
+.social-media a:hover {
+  color: #f0535d;
+  background-color: transparent;
+  webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}

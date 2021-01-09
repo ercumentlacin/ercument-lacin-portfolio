@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .develooper-image {
+    order: -1;
+  }
+}
