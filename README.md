@@ -1,7 +1,7 @@
 # ercument-lacin-portfolio
 
-## Demo Live
-[Netfily](https://ercument-lacin-portfolio.netlify.app/)
+## Demo 
+[Live](https://ercument-lacin-portfolio.netlify.app/)
 
 ## How to Get Started
 
