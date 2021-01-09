@@ -1,5 +1,4 @@
 import React from "react";
-import ThemeContext from "../../context/ThemeContext";
 
 import Navbar from "./Navbar";
 import ThemeSwitcher from "./ThemeSwitcher";
